@@ -20,3 +20,4 @@ git remote add origin https://github.com/FranciscoJavier001/R-P.git
 git push -u origin main
 
 npm install react-icons
+npm install react-router-dom
