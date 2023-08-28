@@ -2,9 +2,6 @@ import "./styles.css";
 export const Body = () => {
   return (
     <div>
-      <script
-        src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-        crossOrigin="anonymous"></script>
       <link
         href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
         rel="stylesheet"
@@ -16,20 +13,24 @@ export const Body = () => {
           <div className="resume-section-content">
             <h1 className="mb-0 text-center">
               Francisco Javier
+              <br />
               <span className="text-primary">Martinez Duran</span>
             </h1>
-            <div className="subheading mb-5 text-center ">
+            <div className="subheading mb-5 text-center mt-2">
               Aguascalientes, Mexico · C.P. 20187 · (449) 111-1111 ·
-              <a href="mailto:name@email.com">user.streaming.001@gmail.com</a>
+              <a href="mailto:name@email.com">fjmd1987mx@gmail.com</a>
             </div>
             <p className="lead mb-5 text-center">
               Desarrollador Web en proyectos privados, tengo experiencia en
               desarrollo para paginas de escritorio y movil, con conocimiento
-              del STACK MERN (Mongo, Express, React & Node). Con enfoque hacia
-              el pensamiento colaborativo, hacia la implementacion de una
-              propuesta de alto valor
+              del STACK MERN (Mongo, Express, React & Node).
+              <br />
+              <p className="mt-2">
+                Con enfoque hacia el pensamiento colaborativo, hacia la
+                implementacion de una propuesta de alto valor
+              </p>
             </p>
-            <div className="social-icons text-center">
+            <div className="social-icons d-flex justify-content-around">
               <a
                 className="social-icon"
                 rel="noreferrer"
@@ -65,7 +66,7 @@ export const Body = () => {
 
         <section className="resume-section" id="experience">
           <div className="resume-section-content">
-            <h2 className="mb-5">Experiencia</h2>
+            <h2 className="mb-5 text-center">Experiencia</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0">Web Developer</h3>
@@ -104,7 +105,7 @@ export const Body = () => {
 
         <section className="resume-section" id="education">
           <div className="resume-section-content">
-            <h2 className="mb-5">Educacion</h2>
+            <h2 className="mb-5 text-center">Educacion</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0">Universidad del Valle de Mexico</h3>
@@ -131,7 +132,7 @@ export const Body = () => {
 
         <section className="resume-section" id="skills">
           <div className="resume-section-content">
-            <h2 className="mb-5">Habilidades</h2>
+            <h2 className="mb-5 text-center">Habilidades</h2>
             <div className="subheading mb-3">
               Lenguajes de Programacion y Herramientas
             </div>
@@ -200,7 +201,7 @@ export const Body = () => {
 
         <section className="resume-section" id="interests">
           <div className="resume-section-content">
-            <h2 className="mb-5">Intereses</h2>
+            <h2 className="mb-5 text-center">Intereses</h2>
             <p>
               Aparte de la pasion por la Informatica , disfruto pasar mi tiempo
               afuera leyendo, me encantan los helados, y caminar, el deporte es
@@ -220,7 +221,7 @@ export const Body = () => {
 
         <section className="resume-section" id="awards">
           <div className="resume-section-content">
-            <h2 className="mb-5">Certificaciones</h2>
+            <h2 className="mb-5 text-center">Certificaciones</h2>
             <ul className="fa-ul mb-0">
               <li>
                 <span className="fa-li">
