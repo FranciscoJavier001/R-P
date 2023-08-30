@@ -1,3 +1,10 @@
+import {
+  FaYoutube,
+  FaLinkedinIn,
+  FaGithub,
+  FaFacebookF,
+} from "react-icons/fa6";
+
 import "./styles.css";
 export const Body = () => {
   return (
@@ -36,28 +43,28 @@ export const Body = () => {
                 rel="noreferrer"
                 href="https://youtu.be/2ev6A6sqxWM"
                 target="_blank">
-                <i className="fab fab fa-youtube"></i>
+                <FaYoutube />
               </a>
               <a
                 className="social-icon"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/francisco-javier-martinez-duran-62a003a8/"
                 target="_blank">
-                <i className="fab fa-linkedin-in"></i>
+                <FaLinkedinIn />
               </a>
               <a
                 className="social-icon"
                 rel="noreferrer"
                 href="https://github.com/FranciscoJavier001"
                 target="_blank">
-                <i className="fab fa-github"></i>
+                <FaGithub />
               </a>
               <a
                 className="social-icon"
                 rel="noreferrer"
                 href="https://www.facebook.com/UserStreaming001/"
                 target="_blank">
-                <i className="fab fa-facebook-f"></i>
+                <FaFacebookF />
               </a>
             </div>
           </div>
