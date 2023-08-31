@@ -4,6 +4,32 @@ import {
   FaGithub,
   FaFacebookF,
 } from "react-icons/fa6";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaBootstrap,
+  FaDatabase,
+  FaNode,
+  FaSass,
+  FaNpm,
+  FaYarn,
+  FaBookOpen,
+  FaCertificate,
+} from "react-icons/fa";
+
+import { DiScrum, DiResponsive } from "react-icons/di";
+
+import { SiTestinglibrary } from "react-icons/si";
+
+import { RiTeamFill } from "react-icons/ri";
+
+import { VscDebug } from "react-icons/vsc";
+
+import { TbBrandVscode } from "react-icons/tb";
+
+import { BiSupport, BiCode } from "react-icons/bi";
 
 import "./styles.css";
 export const Body = () => {
@@ -43,6 +69,13 @@ export const Body = () => {
                 rel="noreferrer"
                 href="https://youtu.be/2ev6A6sqxWM"
                 target="_blank">
+                <FaBookOpen />
+              </a>
+              <a
+                className="social-icon"
+                rel="noreferrer"
+                href="https://youtu.be/2ev6A6sqxWM"
+                target="_blank">
                 <FaYoutube />
               </a>
               <a
@@ -70,7 +103,6 @@ export const Body = () => {
           </div>
         </section>
         <hr className="m-0" />
-
         <section className="resume-section" id="experience">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Experiencia</h2>
@@ -109,12 +141,11 @@ export const Body = () => {
           </div>
         </section>
         <hr className="m-0" />
-
         <section className="resume-section" id="education">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Educacion</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div className="flex-grow-1">
+              <div className="flex-grow-1x">
                 <h3 className="mb-0">Universidad del Valle de Mexico</h3>
                 <div className="subheading mb-3">Carrera Trunca</div>
                 <div>Ingenieria Industrial y de Sistemas</div>
@@ -136,76 +167,80 @@ export const Body = () => {
           </div>
         </section>
         <hr className="m-0" />
-
         <section className="resume-section" id="skills">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Habilidades</h2>
-            <div className="subheading mb-3">
-              Lenguajes de Programacion y Herramientas
+            <div className="subheading mb-3 text-center">
+              <h3 className="mb-0">Lenguajes de Programacion y Herramientas</h3>
             </div>
-            <ul className="list-inline dev-icons">
+            <ul className="list-inline dev-icons d-flex justify-content-around">
               <li className="list-inline-item">
-                <i className="fab fa-react"></i>
+                <FaReact />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-html5"></i>
+                <FaHtml5 />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-css3-alt"></i>
+                <FaCss3Alt />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-js-square"></i>
+                <FaJsSquare />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-bootstrap"></i>
+                <FaBootstrap />
               </li>
               <li className="list-inline-item">
-                <i className="fas fa-database"></i>
+                <FaDatabase />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-node-js"></i>
+                <FaNode />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-sass"></i>
+                <FaSass />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-npm"></i>
+                <FaNpm />
               </li>
               <li className="list-inline-item">
-                <i className="fab fa-github"></i>
+                <FaYarn />
+              </li>
+              <li className="list-inline-item">
+                <FaGithub />
               </li>
             </ul>
-            <div className="subheading mb-3">Entorno de Trabajo</div>
-            <ul className="fa-ul mb-0">
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Diseño Responsivo
+
+            <div className="subheading mb-3 mt-5 text-center">
+              <h3 className="mb-0">Entorno de Trabajo</h3>
+            </div>
+            <ul className="list-inline dev-icons d-flex justify-content-around">
+              <li className="list-inline-item">
+                <TbBrandVscode />
               </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Testing
+              <li className="list-inline-item">
+                <RiTeamFill />
               </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Trabajo en Equipo
+              <li className="list-inline-item">
+                <BiSupport />
               </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Metodologia Agil SCRUM
+              <li className="list-inline-item">
+                <DiScrum />
+              </li>
+              <li className="list-inline-item">
+                <DiResponsive />
+              </li>
+              <li className="list-inline-item">
+                <BiCode />
+              </li>
+              <li className="list-inline-item">
+                <VscDebug />
+              </li>
+              <li className="list-inline-item">
+                <SiTestinglibrary />
               </li>
             </ul>
           </div>
         </section>
         <hr className="m-0" />
-
         <section className="resume-section" id="interests">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Intereses</h2>
@@ -225,17 +260,21 @@ export const Body = () => {
           </div>
         </section>
         <hr className="m-0" />
-
         <section className="resume-section" id="awards">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Certificaciones</h2>
             <ul className="fa-ul mb-0">
-              <li>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 The Ultimate MySQL Bootcamp - Colt Steele - Udemy
-              </li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
               <li>
                 <span className="fa-li">
                   <i className="fas fa-certificate text-warning"></i>
