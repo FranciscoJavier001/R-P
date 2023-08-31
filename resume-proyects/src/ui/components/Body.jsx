@@ -378,77 +378,97 @@ export const Body = () => {
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
+                  The Ultimate MySQL Bootcamp - Colt Steele - Udemy
                 </span>
-                The Ultimate MySQL Bootcamp - Colt Steele - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 Master en CSS - Victor Robles - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 Master en JavaScript - Victor Robles - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 JavaScript Moderno - Fernando Herrera - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 React - Fernando Herrera - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 The Complete JavaScript Course - Jonas Schmedtmann - Udemy
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
+              <div className="mb-1"></div>
               <div className="text-center">
                 <span className="fa-li">
                   <i className="text-warning">
                     <FaCertificate />
+                    {` `}
                   </i>
                 </span>
                 Curso de Programacion Orientada a Objetos con PHP - Bextlan -
                 YouTube
                 <i className="text-warning">
+                  {` `}
                   <FaCertificate />
                 </i>
               </div>
