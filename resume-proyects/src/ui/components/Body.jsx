@@ -32,6 +32,7 @@ import { TbBrandVscode } from "react-icons/tb";
 import { BiSupport, BiCode } from "react-icons/bi";
 
 import "./styles.css";
+
 export const Body = () => {
   return (
     <div>
@@ -50,17 +51,24 @@ export const Body = () => {
               <span className="text-primary">Martinez Duran</span>
             </h1>
             <div className="subheading mb-5 text-center mt-2">
-              Aguascalientes, Mexico · C.P. 20187 · (449) 111-1111 ·
-              <a href="mailto:name@email.com">fjmd1987mx@gmail.com</a>
+              Aguascalientes, Mexico · C.P. 20187 ·{" "}
+              <a
+                href="http://wa.me/+524495946298"
+                target="_blank"
+                rel="noopener noreferrer">
+                (+52) 449-594-6298
+              </a>
+              {` `} · {` `}
+              <a href="mailto:fjmd1987mx@gmail.com">fjmd1987mx@gmail.com</a>
             </div>
             <p className="lead mb-5 text-center">
-              Desarrollador Web en proyectos privados, tengo experiencia en
-              desarrollo para paginas de escritorio y movil, con conocimiento
-              del STACK MERN (Mongo, Express, React & Node).
+              Web Developer in Private and Professional Projects, I have
+              Experience in Development for Desktop and Mobile Pages and Apps
+              with knowledge in MERN STACK (Mongo, Express, React and Node)
               <br />
               <p className="mt-2">
-                Con enfoque hacia el pensamiento colaborativo, hacia la
-                implementacion de una propuesta de alto valor
+                With a Focus on Collaborative Thinking, Towards Implementation
+                of a High Value Proposition
               </p>
             </p>
             <div className="social-icons d-flex justify-content-around">
@@ -109,24 +117,6 @@ export const Body = () => {
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0">Web Developer</h3>
-                <div className="subheading mb-3">Junior Freelance</div>
-                <p>
-                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
-                  Node, buscando nuevas formas de optiizar los recursos
-                  generando diseños responsivos para la adaptacion en diversos
-                  dispositivos, usando diversas extensiones de VS Code,
-                  utilizando GitHub para el control de versiones y Heroku para
-                  el despliegue del Backend, realizando pruebas en el codigo
-                  para confirmar la viabilidad del mismo.
-                </p>
-              </div>
-              <div className="flex-shrink-0">
-                <span className="text-primary">Junio 2020 - Presente</span>
-              </div>
-            </div>
-            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div className="flex-grow-1">
-                <h3 className="mb-0">Web Developer</h3>
                 <div className="subheading mb-3">Codellege - Softtek</div>
                 <p>
                   Curso intensivo en el desarrollo web impartido en Softtek sede
@@ -138,6 +128,62 @@ export const Body = () => {
                 <span className="text-primary">Enero 2020 - Junio 2020</span>
               </div>
             </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1">
+                <h3 className="mb-0">Web Developer</h3>
+                <div className="subheading mb-3">Freelance</div>
+                <p>
+                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
+                  Node, buscando nuevas formas de optiizar los recursos
+                  generando diseños responsivos para la adaptacion en diversos
+                  dispositivos, usando diversas extensiones de VS Code,
+                  utilizando GitHub para el control de versiones y Heroku para
+                  el despliegue del Backend, realizando pruebas en el codigo
+                  para confirmar la viabilidad del mismo.
+                </p>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">Julio 2020 - Abril 2022</span>
+              </div>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1">
+                <h3 className="mb-0">Subject Matter Experts</h3>
+                <div className="subheading mb-3">
+                  SME in Software Development with React - Emonics Llc
+                </div>
+                <p>
+                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
+                  Node, buscando nuevas formas de optiizar los recursos
+                  generando diseños responsivos para la adaptacion en diversos
+                  dispositivos, usando diversas extensiones de VS Code,
+                  utilizando GitHub para el control de versiones y Heroku para
+                  el despliegue del Backend, realizando pruebas en el codigo
+                  para confirmar la viabilidad del mismo.
+                </p>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">Mayo 2022 - Diciembre 2022</span>
+              </div>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1">
+                <h3 className="mb-0">Full Stack Developer</h3>
+                <div className="subheading mb-3">Prompt Engineering</div>
+                <p>
+                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
+                  Node, buscando nuevas formas de optiizar los recursos
+                  generando diseños responsivos para la adaptacion en diversos
+                  dispositivos, usando diversas extensiones de VS Code,
+                  utilizando GitHub para el control de versiones y Heroku para
+                  el despliegue del Backend, realizando pruebas en el codigo
+                  para confirmar la viabilidad del mismo.
+                </p>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">Febrero 2023 - Presente</span>
+              </div>
+            </div>
           </div>
         </section>
         <hr className="m-0" />
@@ -146,22 +192,48 @@ export const Body = () => {
             <h2 className="mb-5 text-center">Educacion</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1x">
-                <h3 className="mb-0">Universidad del Valle de Mexico</h3>
+                <h3 className="mb-0">Unidep</h3>
                 <div className="subheading mb-3">Carrera Trunca</div>
+                <div>Ingenieria en Sistemas Computacionales</div>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">
+                  Julio 2011 - Noviembre 2012
+                </span>
+              </div>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1x">
+                <h3 className="mb-0">Universidad del Valle de Mexico</h3>
+                <div className="subheading mb-3">Licenciatura</div>
                 <div>Ingenieria Industrial y de Sistemas</div>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Agosto 2014 - Mayo 2016</span>
+                <span className="text-primary">
+                  Agosto 2014 - Diciembre 2017
+                </span>
+              </div>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1x">
+                <h3 className="mb-0">Softtek</h3>
+                <div className="subheading mb-3">Codellege</div>
+                <div>Bootcamp de Desarrollo Web FrontEnd</div>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">Enero 2020 - Junio 2020</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between">
               <div className="flex-grow-1">
-                <h3 className="mb-0">Softtek</h3>
-                <div className="subheading mb-3">Codellege</div>
-                <div>Curso de Desarrollo Web</div>
+                <h3 className="mb-0">IT Certifications</h3>
+                <div className="subheading mb-3">
+                  Certifications and Training
+                </div>
+                <div>Variety of Courses in Different IT Web Platforms</div>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Enero 2020 - Junio 2020</span>
+                <span className="text-primary">Enero 2020 - Present</span>
               </div>
             </div>
           </div>
@@ -176,36 +248,58 @@ export const Body = () => {
             <ul className="list-inline dev-icons d-flex justify-content-around">
               <li className="list-inline-item">
                 <FaReact />
+                <br />
+                <h4 className="text-center">React</h4>
               </li>
               <li className="list-inline-item">
                 <FaHtml5 />
+                <br />
+                <h4 className="text-center">Html</h4>
               </li>
               <li className="list-inline-item">
                 <FaCss3Alt />
+                <br />
+                <h4 className="text-center">Css</h4>
               </li>
               <li className="list-inline-item">
                 <FaJsSquare />
+                <br />
+                <h4 className="text-center">Js</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item align-center">
                 <FaBootstrap />
+                <br />
+                <h4 className="text-center">Bs</h4>
               </li>
               <li className="list-inline-item">
                 <FaDatabase />
+                <br />
+                <h4 className="text-center">Db</h4>
               </li>
               <li className="list-inline-item">
                 <FaNode />
+                <br />
+                <h4 className="text-center">Node</h4>
               </li>
               <li className="list-inline-item">
                 <FaSass />
+                <br />
+                <h4 className="text-center">Sass</h4>
               </li>
               <li className="list-inline-item">
                 <FaNpm />
+                <br />
+                <h4 className="text-center">Npm</h4>
               </li>
               <li className="list-inline-item">
                 <FaYarn />
+                <br />
+                <h4 className="text-center">Yarn</h4>
               </li>
               <li className="list-inline-item">
                 <FaGithub />
+                <br />
+                <h4 className="text-center">Git</h4>
               </li>
             </ul>
 
@@ -215,27 +309,43 @@ export const Body = () => {
             <ul className="list-inline dev-icons d-flex justify-content-around">
               <li className="list-inline-item">
                 <TbBrandVscode />
+                <br />
+                <h4 className="text-center">Vsc</h4>
               </li>
               <li className="list-inline-item">
                 <RiTeamFill />
+                <br />
+                <h4 className="text-center">Team</h4>
               </li>
               <li className="list-inline-item">
                 <BiSupport />
+                <br />
+                <h4 className="text-center">Cs/Ts</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="align-items-center">
                 <DiScrum />
+                <br />
+                <h4 className="text-center">Scrum</h4>
               </li>
               <li className="list-inline-item">
                 <DiResponsive />
+                <br />
+                <h4 className="text-center">Desing</h4>
               </li>
               <li className="list-inline-item">
                 <BiCode />
+                <br />
+                <h4 className="text-center">Code</h4>
               </li>
               <li className="list-inline-item">
                 <VscDebug />
+                <br />
+                <h4 className="text-center">Debug</h4>
               </li>
               <li className="list-inline-item">
                 <SiTestinglibrary />
+                <br />
+                <h4 className="text-center">Test</h4>
               </li>
             </ul>
           </div>
@@ -275,37 +385,73 @@ export const Body = () => {
                   <FaCertificate />
                 </i>
               </div>
-              <li>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 Master en CSS - Victor Robles - Udemy
-              </li>
-              <li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 Master en JavaScript - Victor Robles - Udemy
-              </li>
-              <li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 JavaScript Moderno - Fernando Herrera - Udemy
-              </li>
-              <li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 React - Fernando Herrera - Udemy
-              </li>
-              <li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
+              <div className="text-center">
                 <span className="fa-li">
-                  <i className="fas fa-certificate text-warning"></i>
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
+                </span>
+                The Complete JavaScript Course - Jonas Schmedtmann - Udemy
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
+              <div className="text-center">
+                <span className="fa-li">
+                  <i className="text-warning">
+                    <FaCertificate />
+                  </i>
                 </span>
                 Curso de Programacion Orientada a Objetos con PHP - Bextlan -
                 YouTube
-              </li>
+                <i className="text-warning">
+                  <FaCertificate />
+                </i>
+              </div>
             </ul>
           </div>
         </section>
