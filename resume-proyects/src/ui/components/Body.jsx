@@ -72,24 +72,26 @@ export const Body = () => {
               </p>
             </p>
             <div className="social-icons d-flex justify-content-around">
+              <div>
+                <a
+                  className="social-icon"
+                  rel="noreferrer"
+                  href=""
+                  target="_blank">
+                  <FaBookOpen />
+                </a>
+              </div>
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://youtu.be/2ev6A6sqxWM"
-                target="_blank">
-                <FaBookOpen />
-              </a>
-              <a
-                className="social-icon"
-                rel="noreferrer"
-                href="https://youtu.be/2ev6A6sqxWM"
+                href=""
                 target="_blank">
                 <FaYoutube />
               </a>
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/francisco-javier-martinez-duran-62a003a8/"
+                href=""
                 target="_blank">
                 <FaLinkedinIn />
               </a>
@@ -103,7 +105,7 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://www.facebook.com/UserStreaming001/"
+                href=""
                 target="_blank">
                 <FaFacebookF />
               </a>
@@ -113,19 +115,19 @@ export const Body = () => {
         <hr className="m-0" />
         <section className="resume-section" id="experience">
           <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Experiencia</h2>
+            <h2 className="mb-5 text-center">Experience</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0">Web Developer</h3>
                 <div className="subheading mb-3">Codellege - Softtek</div>
                 <p>
-                  Curso intensivo en el desarrollo web impartido en Softtek sede
-                  Aguascalientes, donde conocimos lo basico de FrontEnd y
-                  desarrollo de logica para la programacion.
+                  Intensive Course of Web Development Taught at Softtek
+                  Headquarters Aguascalientes, Where We Learned the Basic
+                  FrontEnd Programming Skills and Logic Development
                 </p>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Enero 2020 - Junio 2020</span>
+                <span className="text-primary">January 2020 - June 2020</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -133,17 +135,15 @@ export const Body = () => {
                 <h3 className="mb-0">Web Developer</h3>
                 <div className="subheading mb-3">Freelance</div>
                 <p>
-                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
-                  Node, buscando nuevas formas de optiizar los recursos
-                  generando diseños responsivos para la adaptacion en diversos
-                  dispositivos, usando diversas extensiones de VS Code,
-                  utilizando GitHub para el control de versiones y Heroku para
-                  el despliegue del Backend, realizando pruebas en el codigo
-                  para confirmar la viabilidad del mismo.
+                  Creation of Web Pages using React, Mongo and Node looking for
+                  New Ways to Optimize Resources with Responsive Web Design for
+                  Adaptation in Various Devices using VS Code Extensions and
+                  using GitHub for Version Control and Heroku for BackEnd
+                  Deployment and Testing Code to Confirm its Feasibility
                 </p>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Julio 2020 - Abril 2022</span>
+                <span className="text-primary">July 2020 - April 2022</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -152,36 +152,20 @@ export const Body = () => {
                 <div className="subheading mb-3">
                   SME in Software Development with React - Emonics Llc
                 </div>
-                <p>
-                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
-                  Node, buscando nuevas formas de optiizar los recursos
-                  generando diseños responsivos para la adaptacion en diversos
-                  dispositivos, usando diversas extensiones de VS Code,
-                  utilizando GitHub para el control de versiones y Heroku para
-                  el despliegue del Backend, realizando pruebas en el codigo
-                  para confirmar la viabilidad del mismo.
-                </p>
+                <p>Text</p>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Mayo 2022 - Diciembre 2022</span>
+                <span className="text-primary">May 2022 - December 2022</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0">Full Stack Developer</h3>
                 <div className="subheading mb-3">Prompt Engineering</div>
-                <p>
-                  Creacion de Paginas Web usando HTML, CSS, JavaScript, Mongo y
-                  Node, buscando nuevas formas de optiizar los recursos
-                  generando diseños responsivos para la adaptacion en diversos
-                  dispositivos, usando diversas extensiones de VS Code,
-                  utilizando GitHub para el control de versiones y Heroku para
-                  el despliegue del Backend, realizando pruebas en el codigo
-                  para confirmar la viabilidad del mismo.
-                </p>
+                <p>Text</p>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Febrero 2023 - Presente</span>
+                <span className="text-primary">February 2023 - Present</span>
               </div>
             </div>
           </div>
@@ -241,7 +225,7 @@ export const Body = () => {
         <hr className="m-0" />
         <section className="resume-section" id="skills">
           <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Habilidades</h2>
+            <h2 className="mb-5 text-center">Skills</h2>
             <div className="subheading mb-3 text-center">
               <h3 className="mb-0">Lenguajes de Programacion y Herramientas</h3>
             </div>
