@@ -32,32 +32,38 @@ export const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#about">
-              Sobre Mi
+              About
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#experience">
-              Experiencia
+              Experience
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#education">
-              Educacion
+              Education
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#skills">
-              Habilidades
+              Skills
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#projects">
+              {/* Falta el id de proyectos */}
+              Projects
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#interests">
-              Intereses
+              Interest
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#awards">
-              Certificados
+              Certifications
             </a>
           </li>
         </ul>
