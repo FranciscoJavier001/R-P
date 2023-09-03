@@ -1,9 +1,4 @@
-import {
-  FaYoutube,
-  FaLinkedinIn,
-  FaGithub,
-  FaFacebookF,
-} from "react-icons/fa6";
+import { FaYoutube, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
 import {
   FaReact,
@@ -17,7 +12,6 @@ import {
   FaNpm,
   FaYarn,
   FaBookOpen,
-  FaCertificate,
 } from "react-icons/fa";
 
 import { DiScrum, DiResponsive } from "react-icons/di";
@@ -63,7 +57,7 @@ export const Body = () => {
               <a href="mailto:fjmd1987mx@gmail.com">fjmd1987mx@gmail.com</a>
             </div>
             <p className="lead mb-5 text-center">
-              Web Developer in Private and Professional Projects, I have
+              Web Developer in Personal and Professional Projects, I have
               Experience in Development for Desktop and Mobile Pages and Apps
               with knowledge in MERN STACK (Mongo, Express, React and Node)
               <br />
@@ -101,13 +95,6 @@ export const Body = () => {
                 href="https://github.com/FranciscoJavier001"
                 target="_blank">
                 <FaGithub />
-              </a>
-              <a
-                className="social-icon"
-                rel="noreferrer"
-                href=""
-                target="_blank">
-                <FaFacebookF />
               </a>
             </div>
           </div>
@@ -246,58 +233,58 @@ export const Body = () => {
             <div className="subheading mb-3 text-center">
               <h3 className="mb-0">Programming Languages and Tools</h3>
             </div>
-            <ul className="list-inline dev-icons d-flex justify-content-around">
-              <li className="list-inline-item">
+            <ul className="list-inline dev-icons text-center">
+              <li className="list-inline-item p-2">
                 <FaReact />
                 <br />
                 <h4 className="text-center">React</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaHtml5 />
                 <br />
                 <h4 className="text-center">Html</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaCss3Alt />
                 <br />
                 <h4 className="text-center">Css</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaJsSquare />
                 <br />
                 <h4 className="text-center">Js</h4>
               </li>
-              <li className="list-inline-item align-center">
+              <li className="list-inline-item p-2">
                 <FaBootstrap />
                 <br />
                 <h4 className="text-center">Bs</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaDatabase />
                 <br />
                 <h4 className="text-center">Db</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaNode />
                 <br />
                 <h4 className="text-center">Node</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaSass />
                 <br />
                 <h4 className="text-center">Sass</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaNpm />
                 <br />
                 <h4 className="text-center">Npm</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaYarn />
                 <br />
                 <h4 className="text-center">Yarn</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <FaGithub />
                 <br />
                 <h4 className="text-center">Git</h4>
@@ -307,43 +294,43 @@ export const Body = () => {
             <div className="subheading mb-3 mt-5 text-center">
               <h3 className="mb-0">Work Environment</h3>
             </div>
-            <ul className="list-inline dev-icons d-flex justify-content-around">
-              <li className="list-inline-item">
+            <ul className="list-inline dev-icons text-center">
+              <li className="list-inline-item p-2">
                 <TbBrandVscode />
                 <br />
                 <h4 className="text-center">Vsc</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <RiTeamFill />
                 <br />
                 <h4 className="text-center">Team</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <BiSupport />
                 <br />
                 <h4 className="text-center">Cs/Ts</h4>
               </li>
-              <li className="align-items-center">
+              <li className="list-inline-item p-2">
                 <DiScrum />
                 <br />
                 <h4 className="text-center">Scrum</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <DiResponsive />
                 <br />
                 <h4 className="text-center">Desing</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <BiCode />
                 <br />
                 <h4 className="text-center">Code</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <VscDebug />
                 <br />
                 <h4 className="text-center">Debug</h4>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item p-2">
                 <SiTestinglibrary />
                 <br />
                 <h4 className="text-center">Test</h4>
@@ -377,114 +364,38 @@ export const Body = () => {
           </div>
         </section>
         <hr className="m-0" />
+
         <section className="resume-section" id="awards">
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Certifications</h2>
-            <ul className="fa-ul mb-0">
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                  The Ultimate MySQL Bootcamp - Colt Steele - Udemy
-                </span>
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                Master en CSS - Victor Robles - Udemy
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                Master en JavaScript - Victor Robles - Udemy
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                JavaScript Moderno - Fernando Herrera - Udemy
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                React - Fernando Herrera - Udemy
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                The Complete JavaScript Course - Jonas Schmedtmann - Udemy
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-              <div className="mb-1"></div>
-              <div className="text-center">
-                <span className="fa-li">
-                  <i className="text-warning">
-                    <FaCertificate />
-                    {` `}
-                  </i>
-                </span>
-                Curso de Programacion Orientada a Objetos con PHP - Bextlan -
-                YouTube
-                <i className="text-warning">
-                  {` `}
-                  <FaCertificate />
-                </i>
-              </div>
-            </ul>
+
+            <p className="text-center">
+              The Ultimate MySQL Bootcamp - Colt Steele - Udemy
+            </p>
+
+            <p className="text-center">Master en CSS - Victor Robles - Udemy</p>
+
+            <p className="text-center">
+              Master en JavaScript - Victor Robles - Udemy
+            </p>
+
+            <p className="text-center">
+              JavaScript Moderno - Fernando Herrera - Udemy
+            </p>
+
+            <p className="text-center">React - Fernando Herrera - Udemy</p>
+
+            <p className="text-center">
+              The Complete JavaScript Course - Jonas Schmedtmann - Udemy
+            </p>
+
+            <p className="text-center">
+              Curso de Programacion Orientada a Objetos con PHP - Bextlan -
+              YouTube
+            </p>
           </div>
         </section>
       </div>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </div>
   );
 };
