@@ -58,7 +58,7 @@ export const Navbar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#interests">
-              Interest
+              Interests
             </a>
           </li>
           <li className="nav-item">
