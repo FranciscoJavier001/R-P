@@ -30,7 +30,7 @@ import "./styles.css";
 
 export const Body = () => {
   return (
-    <div>
+    <>
       <link
         href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
         rel="stylesheet"
@@ -56,15 +56,15 @@ export const Body = () => {
               {` `} · {` `}
               <a href="mailto:fjmd1987mx@gmail.com">fjmd1987mx@gmail.com</a>
             </div>
-            <p className="lead mb-5 text-center">
+            <p className="lead text-center">
               Web Developer in Personal and Professional Projects, I have
               Experience in Development for Desktop and Mobile Pages and Apps
               with knowledge in MERN STACK (Mongo, Express, React and Node)
-              <br />
-              <p className="mt-2">
-                With a Focus on Collaborative Thinking, Towards Implementation
-                of a High Value Proposition
-              </p>
+            </p>
+
+            <p className="lead mb-5 text-center">
+              With a Focus on Collaborative Thinking, Towards Implementation of
+              a High Value Proposition
             </p>
             <div className="social-icons d-flex justify-content-around">
               <a
@@ -353,13 +353,13 @@ export const Body = () => {
               most deeply more ingrained taste), I love being with the people
               that I love and I always like to be Open to New Possibilities and
               Oportunities.
-              <br />
-              <p className="mt-3 text-center">
-                When I be at home, I enjoy was Studying Programing Lenguages or
-                watching Movies or Series or spending my time with family and
-                friends, I enjoyed looking for new Technologies and
-                Methodologies to do things and Optimize or Improve things.
-              </p>
+            </p>
+
+            <p className="text-center">
+              When I be at home, I enjoy was Studying Programing Lenguages or
+              watching Movies or Series or spending my time with family and
+              friends, I enjoyed looking for new Technologies and Methodologies
+              to do things and Optimize or Improve things.
             </p>
           </div>
         </section>
@@ -396,6 +396,6 @@ export const Body = () => {
           </div>
         </section>
       </div>
-    </div>
+    </>
   );
 };
