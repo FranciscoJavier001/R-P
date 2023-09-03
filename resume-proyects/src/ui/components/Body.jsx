@@ -73,15 +73,14 @@ export const Body = () => {
               </p>
             </p>
             <div className="social-icons d-flex justify-content-around">
-              <div>
-                <a
-                  className="social-icon"
-                  rel="noreferrer"
-                  href=""
-                  target="_blank">
-                  <FaBookOpen />
-                </a>
-              </div>
+              <a
+                className="social-icon"
+                rel="noreferrer"
+                href=""
+                target="_blank">
+                <FaBookOpen />
+              </a>
+
               <a
                 className="social-icon"
                 rel="noreferrer"
