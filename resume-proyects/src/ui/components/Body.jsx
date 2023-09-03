@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaFacebookF,
 } from "react-icons/fa6";
+
 import {
   FaReact,
   FaHtml5,
@@ -50,7 +51,7 @@ export const Body = () => {
               <br />
               <span className="text-primary">Martinez Duran</span>
             </h1>
-            <div className="subheading mb-5 text-center mt-2">
+            <div className="lead subheading mb-5 text-center mt-2">
               Aguascalientes, Mexico · C.P. 20187 ·{" "}
               <a
                 href="http://wa.me/+524495946298"
@@ -118,9 +119,9 @@ export const Body = () => {
             <h2 className="mb-5 text-center">Experience</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
-                <h3 className="mb-0">Web Developer</h3>
-                <div className="subheading mb-3">Codellege - Softtek</div>
-                <p>
+                <h3>Web Developer</h3>
+                <div className="subheading">Codellege - Softtek</div>
+                <p className="mt-3">
                   Intensive Course of Web Development Taught at Softtek
                   Headquarters Aguascalientes, Where We Learned the Basic
                   FrontEnd Programming Skills and Logic Development
@@ -132,13 +133,13 @@ export const Body = () => {
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
-                <h3 className="mb-0">Web Developer</h3>
-                <div className="subheading mb-3">Freelance</div>
-                <p>
+                <h3>Web Developer</h3>
+                <div className="subheading">Freelance</div>
+                <p className="mt-3">
                   Creation of Web Pages using React, Mongo and Node looking for
                   New Ways to Optimize Resources with Responsive Web Design for
                   Adaptation in Various Devices using VS Code Extensions and
-                  using GitHub for Version Control and Heroku for BackEnd
+                  using GitHub for Version Control, Heroku for BackEnd
                   Deployment and Testing Code to Confirm its Feasibility
                 </p>
               </div>
@@ -148,11 +149,17 @@ export const Body = () => {
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
-                <h3 className="mb-0">Subject Matter Experts</h3>
-                <div className="subheading mb-3">
+                <h3>Subject Matter Experts</h3>
+                <div className="subheading">
                   SME in Software Development with React - Emonics Llc
                 </div>
-                <p>Text</p>
+                <p className="mt-3">
+                  Development of Applications with React, Customer Support, User
+                  Support, Colleague Support in Problem Solving, Code
+                  Optimization, Layout Modifications, Implementation and
+                  Creation of New Functional Components, Cloud Application
+                  Deployment and Testing Code
+                </p>
               </div>
               <div className="flex-shrink-0">
                 <span className="text-primary">May 2022 - December 2022</span>
@@ -160,9 +167,20 @@ export const Body = () => {
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
-                <h3 className="mb-0">Full Stack Developer</h3>
-                <div className="subheading mb-3">Prompt Engineering</div>
-                <p>Text</p>
+                <h3>Full Stack Developer</h3>
+                <div className="subheading">Prompt Engineering</div>
+                <p className="mt-3">
+                  Creation of Web Pages And Applications using React,
+                  Implementation of New Functions in Functional Components,
+                  Layout in Sites and Applications, Use Hooks to Improve
+                  Perfomance, Deployment Applications of Cloud Platforms,
+                  Improvements in Components using Node, Code Documentation,
+                  Code Testing, Use Artificial Intelligence for General
+                  Improvements, using New Forms to Responsive Web Design, use
+                  various CDNs for the Creation of More Aesthetic Sites,
+                  Customized Especific Request in Tags and Support to other
+                  Proggramers.
+                </p>
               </div>
               <div className="flex-shrink-0">
                 <span className="text-primary">February 2023 - Present</span>
@@ -173,28 +191,28 @@ export const Body = () => {
         <hr className="m-0" />
         <section className="resume-section" id="education">
           <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Educacion</h2>
+            <h2 className="mb-5 text-center">Education</h2>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1x">
                 <h3 className="mb-0">Unidep</h3>
-                <div className="subheading mb-3">Carrera Trunca</div>
-                <div>Ingenieria en Sistemas Computacionales</div>
+                <div className="subheading mb-3">
+                  Incomplete Bachelor Degree
+                </div>
+                <div>Computer Systems Engineering</div>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">
-                  Julio 2011 - Noviembre 2012
-                </span>
+                <span className="text-primary">July 2011 - November 2012</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1x">
                 <h3 className="mb-0">Universidad del Valle de Mexico</h3>
-                <div className="subheading mb-3">Licenciatura</div>
-                <div>Ingenieria Industrial y de Sistemas</div>
+                <div className="subheading mb-3">Bachelor Degree</div>
+                <div>Industrial and Systems Engineering</div>
               </div>
               <div className="flex-shrink-0">
                 <span className="text-primary">
-                  Agosto 2014 - Diciembre 2017
+                  August 2014 - December 2017
                 </span>
               </div>
             </div>
@@ -202,10 +220,10 @@ export const Body = () => {
               <div className="flex-grow-1x">
                 <h3 className="mb-0">Softtek</h3>
                 <div className="subheading mb-3">Codellege</div>
-                <div>Bootcamp de Desarrollo Web FrontEnd</div>
+                <div>Bootcamp of FrontEnd Web Development</div>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Enero 2020 - Junio 2020</span>
+                <span className="text-primary">January 2020 - June 2020</span>
               </div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between">
@@ -217,7 +235,7 @@ export const Body = () => {
                 <div>Variety of Courses in Different IT Web Platforms</div>
               </div>
               <div className="flex-shrink-0">
-                <span className="text-primary">Enero 2020 - Present</span>
+                <span className="text-primary">January 2020 - Present</span>
               </div>
             </div>
           </div>
@@ -227,7 +245,7 @@ export const Body = () => {
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Skills</h2>
             <div className="subheading mb-3 text-center">
-              <h3 className="mb-0">Lenguajes de Programacion y Herramientas</h3>
+              <h3 className="mb-0">Programming Languages and Tools</h3>
             </div>
             <ul className="list-inline dev-icons d-flex justify-content-around">
               <li className="list-inline-item">
@@ -288,7 +306,7 @@ export const Body = () => {
             </ul>
 
             <div className="subheading mb-3 mt-5 text-center">
-              <h3 className="mb-0">Entorno de Trabajo</h3>
+              <h3 className="mb-0">Work Environment</h3>
             </div>
             <ul className="list-inline dev-icons d-flex justify-content-around">
               <li className="list-inline-item">
@@ -337,26 +355,32 @@ export const Body = () => {
         <hr className="m-0" />
         <section className="resume-section" id="interests">
           <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Intereses</h2>
-            <p>
-              Aparte de la pasion por la Informatica , disfruto pasar mi tiempo
-              afuera leyendo, me encantan los helados, y caminar, el deporte es
-              uno de mis gustos mas arraigados, siempre intento acudir en lo
-              posible, amo estar con la gente que amo, y me gusta siempre estar
-              abierto a nuevas posibilidades.
-            </p>
-            <p className="mb-0">
-              Cuando estoy en casa, disfruto ver peliculas, estudiar idiomas, o
-              pasar tiempo con mi familia y amigos, disfruto estar buscando
-              nuevas tecnologias y metodologias para hacer las cosas y optimizar
-              lo que esta echo al igual que mejorar lo que existe.
+            <h2 className="mb-5 text-center">Interests</h2>
+            <p className="text-center">
+              The Passion for Technology Information means for Me a Big Part of
+              my Life, I Enjoy Spending my Time Make a Web Sites and Apps,
+              trying to Solved Problems or Searching New Ways to do those things
+              but in a differents ways, always trying Improve or Optimized the
+              Resources, also I like spending my time Reading Phyloshopy Books
+              or Personal Development, I love Ice Creams, Coffee and Sweet, I
+              love Walking with My Dogs and Go to the Gym (thats its one of my
+              most deeply more ingrained taste), I love being with the people
+              that I love and I always like to be Open to New Possibilities and
+              Oportunities.
+              <br />
+              <p className="mt-3 text-center">
+                When I be at home, I enjoy was Studying Programing Lenguages or
+                watching Movies or Series or spending my time with family and
+                friends, I enjoyed looking for new Technologies and
+                Methodologies to do things and Optimize or Improve things.
+              </p>
             </p>
           </div>
         </section>
         <hr className="m-0" />
         <section className="resume-section" id="awards">
           <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Certificaciones</h2>
+            <h2 className="mb-5 text-center">Certifications</h2>
             <ul className="fa-ul mb-0">
               <div className="text-center">
                 <span className="fa-li">
