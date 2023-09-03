@@ -1,4 +1,5 @@
 import "./styles.css";
+import Frank from "../../assets/Frank.jpg";
 
 export const Navbar = () => {
   //* Variable a Exportar */
@@ -23,8 +24,8 @@ export const Navbar = () => {
             <span className="d-none d-lg-block">
               <img
                 className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                src="img/profile.jpg"
-                alt="..."
+                src={Frank}
+                alt="Profile"
               />
             </span>
           </a>
