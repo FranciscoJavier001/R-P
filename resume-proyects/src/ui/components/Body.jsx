@@ -16,7 +16,7 @@ import {
 
 import { DiScrum, DiResponsive } from "react-icons/di";
 
-import { SiTestinglibrary } from "react-icons/si";
+import { SiTestinglibrary, SiExpress } from "react-icons/si";
 
 import { RiTeamFill } from "react-icons/ri";
 
@@ -253,6 +253,11 @@ export const Body = () => {
                 <FaJsSquare />
                 <br />
                 <h4 className="text-center">Js</h4>
+              </li>
+              <li className="list-inline-item p-2">
+                <SiExpress />
+                <br />
+                <h4 className="text-center">Express</h4>
               </li>
               <li className="list-inline-item p-2">
                 <FaBootstrap />
