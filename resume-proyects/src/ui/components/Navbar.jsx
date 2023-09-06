@@ -51,12 +51,11 @@ export const Navbar = () => {
                 Skills
               </a>
             </li>
-            {/* <li className="nav-item"> */}
-            {/* <a className="nav-link" href="#projects"> */}
-            {/* Falta el id de proyectos */}
-            {/* Projects */}
-            {/* </a> */}
-            {/* </li> */}
+            <li className="nav-item">
+              <a className="nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="#interests">
                 Interests

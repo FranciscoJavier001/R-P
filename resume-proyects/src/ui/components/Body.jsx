@@ -28,6 +28,8 @@ import { BiSupport, BiCode } from "react-icons/bi";
 
 import "./styles.css";
 
+import F1 from "../../assets/Images/F1.png";
+
 export const Body = () => {
   return (
     <>
@@ -341,6 +343,30 @@ export const Body = () => {
                 <h4 className="text-center">Test</h4>
               </li>
             </ul>
+          </div>
+        </section>
+        <hr className="m-0" />
+        <hr className="m-0" />
+        <section className="resume-section" id="projects">
+          <div className="resume-section-content">
+            <h2 className="mb-5 text-center">Projects</h2>
+            <div className="subheading mb-3 text-center">
+              <h3 className="mb-0">Websites and Apps</h3>
+            </div>
+            <div className="col-3">
+              <div className="card">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                      src={F1}
+                    />
+                    <hr />
+                    <p>xD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <hr className="m-0" />
