@@ -533,7 +533,7 @@ export const Body = () => {
               trying to Solved Problems or Searching New Ways to do those things
               but in a differents ways, always trying Improve or Optimized the
               Resources, also I like spending my time Reading Phyloshopy Books
-              or Personal Development, I love Ice Creams, Coffee and Sweet, I
+              or Personal Development, I love Ice Creams, Coffee and Sweets, I
               love Walking with My Dogs and Go to the Gym (thats its one of my
               most deeply more ingrained taste), I love being with the people
               that I love and I always like to be Open to New Possibilities and
