@@ -26,9 +26,11 @@ import { TbBrandVscode } from "react-icons/tb";
 
 import { BiSupport, BiCode } from "react-icons/bi";
 
-import "./styles.css";
+import { MdWeb } from "react-icons/md";
 
 import F1 from "../../assets/Images/F1.png";
+
+import "./styles.css";
 
 export const Body = () => {
   return (
@@ -53,7 +55,7 @@ export const Body = () => {
                 href="http://wa.me/+524495946298"
                 target="_blank"
                 rel="noopener noreferrer">
-                (+52) 449-594-6298
+                (+52)-449-594-6298
               </a>
               {` `} · {` `}
               <a href="mailto:fjmd1987mx@gmail.com">fjmd1987mx@gmail.com</a>
@@ -351,32 +353,170 @@ export const Body = () => {
           <div className="resume-section-content">
             <h2 className="mb-5 text-center">Projects</h2>
             <div className="subheading mb-3 text-center">
-              <h3 className="mb-0">Websites and Apps</h3>
+              <h3 className="mb-0">
+                <a href="">Websites and Apps</a>
+              </h3>
             </div>
-            <div className="col-4">
-              <div className="card">
-                <div className="row">
-                  <div className="col">
-                    <img
-                      className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                      src={F1}
-                    />
-                    <hr />
-                    <p>xD</p>
+            <div className="row rows-cols-1 row-cols-md-3">
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-3">
-              <div className="card">
-                <div className="row">
-                  <div className="col">
-                    <img
-                      className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                      src={F1}
-                    />
-                    <hr />
-                    <p>xD</p>
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 mb-3">
+                <div className="card">
+                  <div className="row">
+                    <div className="col">
+                      <img className="img-fluid img-profile mx-auto" src={F1} />
+                      <hr />
+                      <div className="d-flex justify-content-around display-6 mb-2">
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href=""
+                          target="_blank">
+                          <MdWeb />
+                        </a>
+                        <h4 className="text-center">Calculadora-Appqqqq</h4>
+                        <a
+                          className="fs-3"
+                          rel="noreferrer"
+                          href="https://github.com/FranciscoJavier001"
+                          target="_blank">
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
