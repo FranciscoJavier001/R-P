@@ -19,7 +19,7 @@ export const Navbar = () => {
       <nav
         className=" navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav">
-        <a className="navbar-brand" href="#page-top">
+        <a className="navbar-brand">
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
