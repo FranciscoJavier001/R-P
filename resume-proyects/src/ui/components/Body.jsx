@@ -74,7 +74,7 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href=""
+                href="https://github.com/FranciscoJavier001/R-P/blob/main/resume-proyects/src/assets/Francisco%20Javier%20Martinez%20Duran.pdf"
                 target="_blank">
                 <FaBookOpen />
               </a>
@@ -82,14 +82,14 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href=""
+                href="https://www.youtube.com/watch?v=EhIO8ML-O-Q"
                 target="_blank">
                 <FaYoutube />
               </a>
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href=""
+                href="https://www.linkedin.com/in/francisco-javier-martinez-duran-606579290/"
                 target="_blank">
                 <FaLinkedinIn />
               </a>
@@ -376,7 +376,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
@@ -403,7 +403,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
@@ -430,7 +430,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
@@ -457,7 +457,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
@@ -484,7 +484,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
@@ -511,7 +511,7 @@ export const Body = () => {
                         <a
                           className="fs-3"
                           rel="noreferrer"
-                          href="https://github.com/FranciscoJavier001"
+                          href=""
                           target="_blank">
                           <FaGithub />
                         </a>
