@@ -74,7 +74,7 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://github.com/FranciscoJavier001/R-P/blob/main/resume-proyects/src/assets/Francisco%20Javier%20Martinez%20Duran.pdf"
+                href="https://drive.google.com/file/d/1hO1O4NbNIJchflna7qsFfGCOkuweV9eR/view?usp=sharing"
                 target="_blank">
                 <FaBookOpen />
               </a>
