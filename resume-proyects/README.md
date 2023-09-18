@@ -21,3 +21,9 @@ git push -u origin main
 
 npm install react-icons
 npm install react-router-dom
+
+npm i
+git add
+git commit -m "gh-pages added"
+npm run build
+npx gh-pages -d dist
