@@ -1,3 +1,5 @@
+import { Projects } from "./Projects";
+
 import { FaYoutube, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
 import {
@@ -26,9 +28,7 @@ import { TbBrandVscode } from "react-icons/tb";
 
 import { BiSupport, BiCode } from "react-icons/bi";
 
-import { MdWeb } from "react-icons/md";
-
-import F1 from "../../assets/Images/F1.png";
+import "../../assets/";
 
 import "./styles.css";
 
@@ -350,178 +350,7 @@ export const Body = () => {
         <hr className="m-0" />
         <hr className="m-0" />
         <section className="resume-section" id="projects">
-          <div className="resume-section-content">
-            <h2 className="mb-5 text-center">Projects</h2>
-            <div className="subheading mb-3 text-center">
-              <h3 className="mb-0">
-                <a href="">Websites and Apps</a>
-              </h3>
-            </div>
-            <div className="row rows-cols-1 row-cols-md-3">
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 mb-3">
-                <div className="card">
-                  <div className="row">
-                    <div className="col">
-                      <img className="img-fluid img-profile mx-auto" src={F1} />
-                      <hr />
-                      <div className="d-flex justify-content-around display-6 mb-2">
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <MdWeb />
-                        </a>
-                        <h4 className="text-center">Calculadora-Appqqqq</h4>
-                        <a
-                          className="fs-3"
-                          rel="noreferrer"
-                          href=""
-                          target="_blank">
-                          <FaGithub />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Projects />
         </section>
         <hr className="m-0" />
         <section className="resume-section" id="interests">
