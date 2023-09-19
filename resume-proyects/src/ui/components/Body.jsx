@@ -74,7 +74,7 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1hO1O4NbNIJchflna7qsFfGCOkuweV9eR/view?usp=sharing"
+                href="https://drive.google.com/uc?id=1hO1O4NbNIJchflna7qsFfGCOkuweV9eR&export=download"
                 target="_blank">
                 <FaBookOpen />
               </a>
