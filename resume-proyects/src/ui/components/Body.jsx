@@ -89,7 +89,7 @@ export const Body = () => {
               <a
                 className="social-icon"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/francisco-javier-martinez-duran-606579290/"
+                href="https://www.linkedin.com/in/francisco-javier-martinez-duran-92055b275/"
                 target="_blank">
                 <FaLinkedinIn />
               </a>
