@@ -12,7 +12,7 @@ export const Projects = () => {
         <h2 className="mb-5 text-center">Projects</h2>
         <div className="subheading mb-3 text-center">
           <h3 className="mb-0">
-            <a href="">Websites and Apps</a>
+            <a href="">Websites Desktop</a>
           </h3>
         </div>
         {/* <div className="row rows-cols-1 row-cols-md-3">
@@ -62,7 +62,7 @@ export const Projects = () => {
                       target="_blank">
                       <MdWeb />
                     </a>
-                    <h4 className="text-center">Simple Modal</h4>
+                    <h4 className="text-center">Guess Number</h4>
                     <a
                       className="fs-3"
                       rel="noreferrer"
@@ -129,16 +129,16 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="rrow-cols-md-12"></div>
-          <div className="row rows-cols-1 row-cols-md-12">
+          <div className="row-cols-md-12"></div>
+          <div className="rows-cols-1">
             <div className="subheading mb-3 text-center">
               <h3 className="mb-0">
                 <a href="">Mobile Apps</a>
               </h3>
             </div>
           </div>
-          <div className="col-12 mb-3">
-            {/* <div className="row" />
+          {/* <div className="col-12 mb-3">
+            <div className="row" />
           </div>
           <div className="col-12 mb-3">
             <div className="card">
@@ -169,8 +169,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div> */}
-          </div>
-
+          <div className="row" />
+          {/* </div> */}
           <div className="col-12 mb-3">
             <div className="card">
               <div className="row">
@@ -200,6 +200,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
+            <div className="row" />
           </div>
         </div>
       </div>
