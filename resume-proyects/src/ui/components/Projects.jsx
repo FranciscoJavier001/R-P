@@ -4,8 +4,16 @@ import WhatsNum from "../../assets/Images/WhatsNum.jpg";
 import Modal from "../../assets/Images/Modal.jpg";
 import Dice from "../../assets/Images/Dice.jpg";
 import GuessNumber from "../../assets/Images/GuessNumber.jpg";
+import NavbarResponsive from "../../assets/Images/NavbarResponsive.jpg";
 
 export const Projects = () => {
+  const containerStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    maxHeight: "36rem", //* Ajusto el tamaño de las ventanas mobiles para usarla en los estilos */
+  };
+
   return (
     <>
       <div className="resume-section-content">
@@ -137,46 +145,18 @@ export const Projects = () => {
               </h3>
             </div>
           </div>
-          {/* <div className="col-12 mb-3">
+
+          <div className="col-12 mb-3">
             <div className="row" />
           </div>
+
           <div className="col-12 mb-3">
             <div className="card">
               <div className="row">
                 <div className="col">
                   <img
                     className="img-fluid img-profile mx-auto"
-                    src={WhatsNum}
-                  />
-                  <hr />
-                  <div className="d-flex justify-content-around display-6 mb-2">
-                    <a
-                      className="fs-3"
-                      rel="noreferrer"
-                      href="https://franciscojaviermartinez.github.io/Mensajeria/"
-                      target="_blank">
-                      <MdWeb />
-                    </a>
-                    <h4 className="text-center">Inmediatle Mobile WhatsApp</h4>
-                    <a
-                      className="fs-3"
-                      rel="noreferrer"
-                      href="https://github.com/FranciscoJavierMartinez/Mensajeria"
-                      target="_blank">
-                      <FaGithub />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          <div className="row" />
-          {/* </div> */}
-          <div className="col-12 mb-3">
-            <div className="card">
-              <div className="row">
-                <div className="col">
-                  <img
-                    className="img-fluid img-profile mx-auto"
+                    style={containerStyle}
                     src={WhatsNum}
                   />
                   <hr />
@@ -200,8 +180,71 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="row" />
           </div>
+
+          <div className="col-12 mb-3">
+            <div className="card">
+              <div className="row">
+                <div className="col">
+                  <img
+                    className="img-fluid img-profile mx-auto"
+                    style={containerStyle}
+                    src={NavbarResponsive}
+                  />
+                  <hr />
+                  <div className="d-flex justify-content-around display-6 mb-2">
+                    <a
+                      className="fs-3"
+                      rel="noreferrer"
+                      href="https://franciscojaviermartinez.github.io/Navbar-Responsive/"
+                      target="_blank">
+                      <MdWeb />
+                    </a>
+                    <h4 className="text-center">Navbar Responsive</h4>
+                    <a
+                      className="fs-3"
+                      rel="noreferrer"
+                      href="https://github.com/FranciscoJavierMartinez/Navbar-Responsive"
+                      target="_blank">
+                      <FaGithub />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="col-12 mb-3">
+            <div className="card">
+              <div className="col">
+                <img
+                  className="img-fluid img-profile mx-auto"
+                  style={containerStyle}
+                  src={WhatsNum}
+                />
+                <hr />
+                <div className="d-flex justify-content-around display-6 mb-2">
+                  <a
+                    className="fs-3"
+                    rel="noreferrer"
+                    href="https://franciscojaviermartinez.github.io/Mensajeria/"
+                    target="_blank">
+                    <MdWeb />
+                  </a>
+                  <h4 className="text-center">Inmediatle Mobile WhatsApp</h4>
+                  <a
+                    className="fs-3"
+                    rel="noreferrer"
+                    href="https://github.com/FranciscoJavierMartinez/Mensajeria"
+                    target="_blank">
+                    <FaGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          {/* Aqui esta la division */}
         </div>
       </div>
     </>
